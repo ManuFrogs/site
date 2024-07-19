@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Венерины мухоловки: хищные растения с уникальными способностями</title>
+  <link rel="stylesheet" href="static/style.css">
+  <script>
+	// Анимация для изображений при наведении (добавляем в script.js)
+	const introImage = document.querySelector('.intro-image');
+	introImage.addEventListener('mouseover', () => {
+	  introImage.style.transform = 'scale(1.1)';
+	});
+	introImage.addEventListener('mouseout', () => {
+	  introImage.style.transform = 'scale(1)';
+	});
+
+	const appearanceImages = document.querySelectorAll('.appearance-image');
+	appearanceImages.forEach(image => {
+	  image.addEventListener('mouseover', () => {
+		image.style.transform = 'scale(1.1)';
+	  });
+	  image.addEventListener('mouseout', () => {
+		image.style.transform = 'scale(1)';
+	  });
+	});
+
+	const appearanceImages = document.querySelectorAll('.animation-image');
+	appearanceImages.forEach(image => {
+	  image.addEventListener('mouseover', () => {
+		image.style.transform = 'scale(1.1)';
+	  });
+	  image.addEventListener('mouseout', () => {
+		image.style.transform = 'scale(1)';
+	  });
+	});
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Венерины мухоловки: хищные растения с уникальными способностями</h1>
+    <img src="static/venus-flytrap-header.jpg" alt="Венерина мухоловка" class="header-image">
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>Венерины мухоловки (Dionaea muscipula) - одни из самых известных и удивительных хищных растений в мире. Их уникальная способность ловить и переваривать насекомых поражает воображение и заставляет нас задуматься о чудесах природы.</p>
+      <img src="static/venus-flytrap-close-up.jpg" alt="Венерина мухоловка крупным планом" class="intro-image">
+    </section>
+
+    <section class="appearance">
+      <h2>Как они выглядят?</h2>
+      <p>Венерины мухоловки - это небольшие травянистые растения, произрастающие на болотах и влажных почвах Северной Америки. У них  розеточная форма роста,  и они образуют розетку листьев, которые выглядят как ловушки.</p>
+      <img src="static/venus-flytrap-plant.jpg" alt="Венерина мухоловка в естественной среде" class="appearance-image">
+      <p>Ловушки - это видоизмененные листовые пластинки, разделенные на две части, которые закрываются, как челюсти. Внутренние поверхности ловушки покрыты чувствительными волосками - триггерами. </p>
+      <img src="static/venus-flytrap-trap-close-up.jpg" alt="Ловушка венериной мухоловки крупным планом" class="appearance-image">
+    </section>
+
+    <section class="hunting">
+      <h2>Как они охотятся?</h2>
+      <p>Когда насекомое садится на ловушку и касается триггерных волосков, ловушка быстро захлопывается. Ловушка оснащена жесткими щетинками по краям, которые препятствуют выходу жертвы.  Далее, внутри ловушки начинают выделяться пищеварительные ферменты, которые разлагают насекомое, предоставляя растению питательные вещества.</p>
+      <div class="animation-container">
+        <img src="static/venus-flytrap-open.png" alt="Открытая ловушка" class="animation-image">
+        <img src="static/venus-flytrap-closed.png" alt="Закрытая ловушка" class="animation-image">
+      </div>
+    </section>
+
+    <section class="reasons">
+      <h2>Почему они хищные?</h2>
+      <p>Венерины мухоловки живут на бедных питательными веществами почвах, и охота на насекомых - это способ получить необходимый азот и другие элементы.</p>
+    </section>
+
+    <section class="facts">
+      <h2>Интересные факты о венериных мухоловках:</h2>
+      <ul>
+        <li>Ловушка может захлопнуться всего за 1/10 секунды!</li>
+        <li>Ловушка может закрываться несколько раз подряд, но после нескольких "ошибочных" срабатываний, она "отдыхает"  примерно на неделю.</li>
+        <li>Венерины мухоловки могут жить около 20 лет.</li>
+        <li>Они  востребованы как комнатные растения, но требуют  особого ухода.</li>
+      </ul>
+    </section>
+
+    <section class="conclusion">
+      <p>Венерины мухоловки -  это не просто растения, а настоящие охотники, которые  приспособились к  суровым условиям  и  завоевали  сердца  людей своей уникальностью.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Корнев Егор</p>
+  </footer>
+</body>
+</html>
